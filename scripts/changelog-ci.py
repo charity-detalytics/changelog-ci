@@ -167,7 +167,7 @@ class ChangelogCI:
 
         latest_release_date = self._get_latest_release_date()
 
-        url = 'https://api.github.com/repos/{repo_name}/pulls?state=closed&base=master'.format(
+        url = 'https://api.github.com/repos/{repo_name}/pulls?state=closed&base=main'.format(
             repo_name=self.repository
         )
 
