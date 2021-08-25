@@ -2,6 +2,7 @@
 
 git fetch --prune --unshallow --tags origin main
 git checkout main
+git pull --rebase
 
 python /scripts/changelog-ci.py
 
