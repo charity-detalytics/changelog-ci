@@ -1,4 +1,5 @@
 #!/bin/bash
+git config --global --add safe.directory '*'
 
 git fetch --prune --unshallow --tags origin main
 git checkout main
